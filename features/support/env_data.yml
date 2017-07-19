@@ -1,0 +1,35 @@
+--- 
+:browser:
+  :localhost:
+    :host: localhost
+    :port: "4444"
+    :key: "firefox"
+
+:target:
+  :staging: 
+    :host: https://staging
+    :port: "443"
+  :localhost: 
+    :host: localhost
+    :port: "3000"
+  :prod: 
+    :host: https://www
+    :port: "443"
+  :dev:
+    :host: http://dev
+    :port: "80"
+  :qa:
+    :host: http://qa
+    :port: "80"
+  :stg-apify:
+    :host: stg-apify
+    :port: "80"
+  :dev-apify:
+    :host: dev-apify
+    :port: "80"
+  :prod-apify:
+    :host: apify
+    :port: "80"	
+  :qa-apify:
+      :host: qa-apify
+      :port: "80"
